@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+</head>
+<body>
+    <form>
+        First Name: <input type="text" name="firstname"><br>
+        Last Name: <input type="text" name="lastname"><br>
+        Email: <input type="email" name="email" required><br>
+        Password <input type="password" name="password" minlength="6"><br>
+        Birthday: <input type="date" name="birthday"><br>
+        Gender:<br>
+        <input type="radio" name="gender" value="Male">Male<br>
+        <input type="radio" name="gender" value="Female">Female<br>
+        <input type="radio" name="gender" value="Other">Other<br>
+        Pets: <br>
+        <input type="checkbox" name="cat"> Cat<br>
+        <input type="checkbox" name="dogs"> Dogs<br>
+        Cars: <br>
+        <select name="cars">
+            <option value="Volvo">Volvo</option>
+            <option value="Audi">Audi</option>
+        </select><br>
+        <input type="submit" value="Register!">
+        <input type="reset">
+    </form>
+</body>
+</html>
+
+
+<!--
+?firstname=Felipe
+&lastname=Cavalcanti
+&email=felipe%40yahoo.com
+&password=12312
+&birthday=2023-12-31
+&gender=Other
+&cat=on
+&cars=Audi
+-->
