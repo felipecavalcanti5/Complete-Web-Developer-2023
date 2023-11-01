@@ -1,0 +1,17 @@
+body{
+    background-image: url(ishan-seefromthesky-BMJWpck6eQA-unsplash.jpg);
+    background-size: cover;
+}
+
+h2 {
+    color: #FF8300;
+}
+
+h3{
+    color: aliceblue;
+    text-align: center;
+    border: 5px solid #FF8300;
+}
+p{
+    color: aliceblue;
+}
